@@ -1,0 +1,156 @@
+.dark-blue
+{
+	color: #00334c !important;
+}
+
+.lowercase
+{
+	text-transform: lowercase;
+}
+
+/* #SPOT */
+	
+	#spot h1,
+	#spot h2, 
+	#spot .differences-group
+	{
+		position: absolute;
+		width: 100%;
+		top: -150px;
+	}
+
+	#spot h1
+	{
+		top: 220px;
+	}
+
+	#spot .differences-group
+	{
+		top: 0;
+	}
+
+/* #GOOD */
+
+	#good
+	{
+		position: relative;
+	}
+
+	#good #you
+	{
+		position: absolute;
+		top: 24%;
+		/*left: 12%;*/
+		text-align: center;
+		left: 0;
+		right: 0;
+	}
+
+/* TODAY */
+
+	#today
+	{
+		position: relative;
+	}
+
+	#today #app
+	{
+		margin-top: 10%;
+	}
+
+	#today img#app
+	{
+		position: absolute;
+		top: 283%;
+		left: 38%;
+		/* right: 0; */
+
+		width: 256px;
+		max-height: 512px;
+
+		transition: top .6s .4s cubic-bezier(0, 1.6, 1, 1); 
+	}
+
+	#today.present img#app
+	{
+		top: 0;
+	}
+
+/* #WWW */
+
+	#www img
+	{
+		width: 33.3333%;
+		position: relative;
+	}
+
+	#www img.left
+	{
+		float: left;
+	}
+
+	#www img.right
+	{
+		float: right;
+	}
+
+	#www .browser
+	{
+		top: 130px;
+	}
+
+	#www .html
+	{
+		padding: 10%;
+		width: 13.3333%;
+		top: 76px;
+	}
+
+	#www .file
+	{
+		position: absolute;
+		top: 60%;
+		right: 0;
+		left: 0;
+	}
+
+	#www .arrow
+	{
+		position: absolute;
+		top: 62%;
+	}
+
+	#www .arrow.left
+	{
+		left: 36%;
+	}
+
+	#www .arrow.right
+	{
+		left: 60%;
+	}
+
+/* DATE */
+
+	.date h3
+	{
+		text-align: left;
+	}
+
+	.date h3 span.highlight
+	{
+		float: right;
+	}
+
+/* ET */
+
+	#app-what img 
+	{
+		position: absolute;
+		bottom: -140%;
+	}
+
+	#not-good-app img
+	{
+		width: 50%;
+	}
