@@ -39,10 +39,12 @@ Join a group of determined, like-minded individuals to discuss, learn and make i
 <!-- **Yuki** is a self-taught JavaScript ninja and a senior developer at [The Mill](http://www.themill.com/). He has plenty of inspiring links and JS tricks to share. -->
 
 <!-- **[Aimee](http://aimeemj.com)** makes websites and clothes. She was in your shoes a year ago, reads puzzled faces and knows when to slow down the pace. -->
+**[Jonny](https://github.com/Jonnygwi)** is a JavaScript Wizz with an eye for detail. He graduated from Web Production at Ravensbourne in June 2017 and is now working as a developer for an Edtech company.
 
-**[Harry](https://twitter.com/@h_dif)** is a third year [Web Media](https://twitter.com/RaveWebMedia) student with loads experience coding from various projects. Has lots of patience for debugging code.
+**[Harry](https://twitter.com/@h_dif)** is an ex third year [Web Media](https://twitter.com/RaveWebMedia) student with loads experience coding from various projects. Has lots of patience for debugging code.
 
-**[Jonny](https://twitter.com/@jonnygwi)** is also a third year [Web Media](https://twitter.com/RaveWebMedia) student, JavaScript Wizz with an eye for detail. Enjoys making educational games to improve computer literacy.
+
+**[Alex](https://github.com/twoofthree)** has over 5 years experience developing web applications that used across the world and is now running his own web development company in London.
 
 ### What do I need to bring?
 
