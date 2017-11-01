@@ -366,7 +366,7 @@ In the `body` you will put all the **interface elements** that are visible to th
 
 > Inside the `body`, add in two `<section>` elements
 
-> ```html
+```html
 <body>
 	<section></section>
 	<section></section>
@@ -379,7 +379,7 @@ In the `body` you will put all the **interface elements** that are visible to th
 
 > Inside the first `section`, add a **heading** `h1` and a **sub-heading** `h2`. These will be the most important pieces of information of your app's main page.
 
-> ```html
+```html
 <section>
 	...
 	<h1>Your app name</h2>
@@ -391,7 +391,7 @@ In the `body` you will put all the **interface elements** that are visible to th
 
 > Write a paragraph to explain how your app works, and what you want people to do first.  
 
-> ```html
+```html
 <section>
 	...
 	<p>Swap skills and time with people in your community!</p>
@@ -409,7 +409,7 @@ It's a set of `options` that people can choose from.
 
 > Under your headings, add in a `<select>` element. Inside that, add in some `<option>` elements.
 
-> ```html
+```html
 <section>
 	...
 	<select>
@@ -427,7 +427,7 @@ It's a set of `options` that people can choose from.
 
 > It's `<button>` :)
 
-> ```html
+```html
 <section>
 	...
 	<button>Find</button>
@@ -449,7 +449,7 @@ You can add **hyperlinks** to our content using the `a` element.
 
 > Add in a little credit at the bottom of your page, just above the closing `</body>` tag.
 
-> ```html
+```html
 	...
 	<p>Made with love by <a href="http://example.com"> Your Name</a></p>
 </body>
@@ -465,7 +465,7 @@ It's important. We recommend [hipsterlogogenerator.com](https://www.hipsterlogog
 
 > To place your logo in your HTML document create an `img` element inside the first `section`. `img` elements don't need closing tags (it's one of the exceptions to the general rule of closing tags).
 
-> ```html
+```html
 <section>
 	<img src=" ">
 </section>
@@ -478,7 +478,7 @@ Every `img` requires a link - either a weblink to the image or the location of t
 
 > In Thimble, upload your logo and put the name inside `src=" "`
 
-> ```html
+```html
 <section>
 	<img src="hipsterlogo.jpg">
 </section>
@@ -491,7 +491,7 @@ If you're taking an image from the web you need to use the link to the image alo
 
 > Right-click on the image and `Copy Link Address`. Then paste it inside `src=" "`
 
-> ```html
+```html
 <section>
 	<img src="http://placekitten.com/200/300">
 </section>
@@ -605,22 +605,22 @@ Text is the major carrier of information on an app, so it's good practice to sta
 > You can grab a free **font** from [Google Fonts](https://fonts.google.com/):
 
 > 1. Pick a typeface you like
-> * Click on the red `+` button (in the top right corner of the selected font)
-> * Toggle the `family selected` box (black bar at the bottom)
-> * Copy and paste the `embed code` into your Thimble (between your <head> tags)
+> 2. Click on the red `+` button (in the top right corner of the selected font)
+> 3. Toggle the `family selected` box (black bar at the bottom)
+> 4. Copy and paste the `embed code` into your Thimble (between your <head> tags)
 
 >	Where? Before `style.css`
 
->	```html
+```html
 	<head>
 		...
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	```
+```
 > * In `style.css`, define the font for the `body` element (all other elements will inherit it).
 
->	```css
+```css
 body
 {
 	font-family: 'Lato', sans-serif;
@@ -651,7 +651,7 @@ You can add images to your app via CSS. This is useful if you want to set differ
 
 > In your `style.css` create a new `background-image` rule for `html`
 
-> ```css
+```css
 html
 {
 	background-image: url('');
@@ -663,11 +663,11 @@ You can upload your own image files to Thimble (if they're smaller than 3MB), or
 For now, we'll use [03difoha.github.io](https://03difoha.github.io), where you can find beautiful, high-res pictures that are free to use for *whatever* purpose you want. Amazing!
 
 > 1. Find an image you like on [03difoha.github.io](https://03difoha.github.io)
-> * Secondary click on the image. (Right click for PC, Two finger click for Mac)
-> * **Copy Image Address**. This should copy the images URL to your clipboard. Paste it into a new tab if you don't believe me.
-> * **Paste** it in your `style.css` inside the `body` `background-image` rule like so
+> 2. Secondary click on the image. (Right click for PC, Two finger click for Mac)
+> 3. **Copy Image Address**. This should copy the images URL to your clipboard. Paste it into a new tab if you don't believe me.
+> 4. **Paste** it in your `style.css` inside the `body` `background-image` rule like so
 
-> ```css
+```css
 html
 {
 	background-image: url('https://03difoha.github.io/example.jpg');
@@ -683,7 +683,7 @@ We can achieve that with `background-size`. This property can take various value
 
 > Add `background-size: cover;` to the `html` rule.
 
-> ```css
+```css
 html
 {
 	background-image: url('https://03difoha.github.io/example.jpg');
@@ -693,7 +693,7 @@ html
 
 Now the image *covers* the content of your app, ie the `body` but you have probably noticed that it doesn't cover the *whole browser window*. The last touch we can add to the background image, to make it cover the whole browser window is adding `background-attachment: fixed;`
 
-> ```css
+```css
 html
 {
 	background-image: url('https://03difoha.github.io/example.jpg');
