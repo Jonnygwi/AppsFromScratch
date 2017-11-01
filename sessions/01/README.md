@@ -10,20 +10,6 @@
 * [Your project brief](#your-brief)
 * [Workshop](#lets-code): HTML & CSS
 
-<!--
-
-Good morning :)
-
-It is a good morning, isn't it?
-
-It is SO good to have you all here today!
-
-The fact that you got out of bed on a Saturday morning, to come here and learn to code, that's real commitment. And we really admire that.
-
-We want this course to be a valuable learning experience for you all, and we want you to have as much fun learning as we have teaching!
-
--->
-
 ### When is lunch?
 
 Research shows that people focus much better when they know what time they're going to eat...
@@ -81,7 +67,7 @@ We're not here to talk at you, but to work with you and we want you to **work to
 ### GitHub
 
 All the course material is on GitHub :octocat:
-[**github.com/03difoha/AppsFromScratch**](https://github.com/03difoha/AppsFromScratch)
+[**github.com/Jonnygwi/AppsFromScratch**](https://github.com/Jonnygwi/AppsFromScratch)
 
 Including notes from each session, exercises, sample code, presentations and links to learn more!
 

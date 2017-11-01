@@ -82,7 +82,7 @@ Which day?	| What are we learning?
 
 # Learning goals
 
-1. Appreciate how digital products work and how they are made. Understand the different uses of **HTML**, **CSS** and **JavaScript**.
+* Appreciate how digital products work and how they are made. Understand the different uses of **HTML**, **CSS** and **JavaScript**.
 * Get hands-on **coding practice**: follow tutors' demonstrations and integrate ready-made blocks of code in your work.
 * Apply your understanding and **experiment** on your own: refine, test and *debug* your code.
 * Feel confident **searching** for solutions to design challenges and coding issues.
