@@ -43,7 +43,6 @@ Join a group of determined, like-minded individuals to discuss, learn and make i
 
 **[Harry](https://twitter.com/@h_dif)** is an ex third year [Web Media](https://twitter.com/RaveWebMedia) student with loads experience coding from various projects. Has lots of patience for debugging code.
 
-
 **[Alex](https://github.com/twoofthree)** has over 5 years experience developing web applications that used across the world and is now running his own web development company in London.
 
 ### What do I need to bring?
