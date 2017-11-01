@@ -2,7 +2,7 @@
 
 ## Day 1 AM
 
-1. Welcome & introductions
+* Welcome & introductions
 * [The plan for this course](#what-is-the-plan)
 * [What is code?](#what-is-code****)
 * [What is an app?](#what-is-an-app)
@@ -32,9 +32,9 @@ We were recently in your shoes and want to show you that it's easy to get starte
 
 We want this course to be **informal** and relaxed, so if you have any questions at any time just ask. We're also going to ask you many **questions**!
 
-We'd like you to introduce yourself to your neighbour. Then we'll ask you to introduce each other to the rest of the group.
+We'd like you to introduce yourself to your neighbour and then you'll introduce your neighbour to the rest of the group.
 
-1. A bit about yourself
+* A bit about yourself
 * How did you hear about this course?
 * Why are you on this course?
 
@@ -88,7 +88,7 @@ When	| What
 
 #### [...] code
 
-*Morse code*, *post code*, *dress code*, •genetic code*, *highway code*...
+*Morse code, post code, dress code, genetic code, highway code*...
 
 What do you think all of these have in common with each other?
 
