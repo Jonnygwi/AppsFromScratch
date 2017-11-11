@@ -108,14 +108,13 @@ Think of a group of people working together, e.g. to make a car, a newspaper, a 
 	}      
 	```
 10. Why doesn't this CSS code turn my paragraphs red?
-
-	```css
+```css
    p
    {
     	font-size: 20px
     	color: red;
    }  
-   ```
+```
 
 # Let's code
 
