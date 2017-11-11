@@ -8,8 +8,8 @@
 
 <!--
 1. [Workshop](#workshop): HTML & CSS recap.
-* [What is **programming**](#programming-vs-coding)?
-* Meet **JavaScript** and jQuery.
+2. [What is **programming**](#programming-vs-coding)?
+3. Meet **JavaScript** and jQuery.
 -->
 
 <!-- * [Group task](#ux-research): UX research. -->
@@ -39,7 +39,7 @@ Think of a group of people working together, e.g. to make a car, a newspaper, a 
 
 	- [ ] HTML
 	- [ ] CSS
-* Is this code HTML or CSS?
+2. Is this code HTML or CSS?
 
 	```css
 	a
@@ -50,7 +50,7 @@ Think of a group of people working together, e.g. to make a car, a newspaper, a 
 
 	- [ ] HTML
 	- [ ] CSS		 
-* What does this code produce?
+3. What does this code produce?
 
 	```html
 	<a href="http://example.com"> Click me! </a>
@@ -59,7 +59,7 @@ Think of a group of people working together, e.g. to make a car, a newspaper, a 
 	- [ ] An apple
 	- [ ] A paragraph
 	- [ ] A hyperlink
-* Where in a `.html` document would you find this code?
+4. Where in a `.html` document would you find this code?
 
 	```html
 	<link href="style.css" rel="stylesheet">
@@ -68,7 +68,7 @@ Think of a group of people working together, e.g. to make a car, a newspaper, a 
 	- [ ] In the `gut`
 	- [ ] At the end of the `body`
 	- [ ] Inside the `head`
-* What does this code produce?
+5. What does this code produce?
 
 	```css
 	a
@@ -81,17 +81,17 @@ Think of a group of people working together, e.g. to make a car, a newspaper, a 
 	- [ ] It turns the text of `a` elements orange
 	- [ ] It turns the background of `a` elements orange
 	- [ ] It turns the border of `a` elements orange
-* What's wrong with this HTML code?
+6. What's wrong with this HTML code?
 
 	```html
 	<p Good morning coders!</p>
 	```
-* What's wrong with this HTML code?
+7. What's wrong with this HTML code?
 
 	```html
 	<p> Good morning coders!<p/>
 	```
-* Why doesn't this CSS code work?
+8. Why doesn't this CSS code work?
 
 	```css
 	<p>
@@ -99,7 +99,7 @@ Think of a group of people working together, e.g. to make a car, a newspaper, a 
 		color: red;
 	}
 	```     
-* Why doesn't this CSS code turn my paragraphs red?
+9. Why doesn't this CSS code turn my paragraphs red?
 
 	```css
 	p
@@ -107,7 +107,7 @@ Think of a group of people working together, e.g. to make a car, a newspaper, a 
 		colour: red;
 	}      
 	```
-* Why doesn't this CSS code turn my paragraphs red?
+10. Why doesn't this CSS code turn my paragraphs red?
 
 	```css
    p
@@ -133,7 +133,7 @@ Your browser likes to put code into boxes, boxes inside boxes inside boxes insid
 
 Each HTML box has:
 
-1. `margin` (outside)
+* `margin` (outside)
 * `border`
 * `padding` (inside)
 
@@ -149,7 +149,7 @@ To style your dropdown, you first need to know how it's called in HTML: `select`
 
 > In `style.css` add a new CSS block
 
-> ```css
+```css
 select
 {
 	background-color: red;
@@ -164,11 +164,11 @@ In Thimble, if you right-click on `red` and then `Quick Edit` a colour picker wi
 
 > Remember how to change the **colour of texts**? It's `color` :us:
 
-> ```css
+```css
 select
 {
-	background-color: red;
-	color: white;
+ 	background-color: red;
+ 	color: white;
 }
 ```
 
@@ -178,22 +178,22 @@ The dropdown and buttons are still in the standard browser font.
 
 > How do you **change the font** of your dropdown? It's `font-family`
 
-> ```css
+```css
 select
 {
-	background-color: red;
-	color: white;
-	font-family: 'Lekton'; /* 'Lekton' is our favourite font, you choose your own from https://www.google.com/fonts */
+ 	background-color: red;
+ 	color: white;
+ 	font-family: 'Lekton'; /* 'Lekton' is our favourite font, you choose your own from https://www.google.com/fonts */
 }
 ```
 
 Currently the dropdown looks too small and its text is not **comfortable to read**. How do you fix that?
 
-> ```css
+```css
 select
 {
-	...
-	font-size: 200%;
+ 	...
+ 	font-size: 200%;
 }
 ```
 
@@ -205,12 +205,12 @@ Btw `px` stands for *pixels*, which are the little dots that make up the screen.
 
 > Add a new CSS block that targets the `button`
 
-> ```css
+```css
 button
 {
-	border: none;
-	background-color: red;
-	cursor: pointer;
+ 	border: none;
+ 	background-color: red;
+ 	cursor: pointer;
 }
 ```
 
@@ -222,21 +222,21 @@ Now you can apply some of the styles from the dropdown to the `button`.
 
 > How do you make **rounded corners**? With `border-radius`.
 
-> ```css
+```css
 button
 {
-	...
+ 	...
 	border-radius: 10px;
 }
 ```
 
 Nice. It looks a bit squished though. We can use `padding` to add some space between the button text and its border.
 
-> ```css
+```css
 button
 {
 	...
-  	padding: 10px;
+   	padding: 10px;
 }
 ```
 
@@ -248,10 +248,10 @@ For example, when you roll over a button, it's good practice for it to change it
 
 > Add a new CSS block that targets the `hover` state of your `button`
 
-> ```css
+```css
 button:hover
 {
-	color: black;
+ 	color: black;
 }
 ```
 
@@ -263,10 +263,10 @@ Currently the text colour flashes from the normal state to the `hover` state.
 
 > You can make that transition smooth using the `transition` CSS property
 
-> ```css
+```css
 button
 {
-	transition: 0.6s;
+ 	transition: 0.6s;
 }
 ```
 
@@ -276,14 +276,14 @@ button
 
 So far we've styled individual elements like `a`, `img`, `select` and `button`. It's time to look at the bigger picture. Our design has a couple of issues:
 
-1. Texts over the background image are not *legible*.
+* Texts over the background image are not *legible*.
 * On large screens, your app looks *odd*.
 
 To address these, we can add a semi-transparent background that will focus people's attention to where they should read and click.
 
 > Create a new CSS rule for `section` and give it a `background-color`.
 
-> ```css
+```css
 section
 {
 	background: rgba(255,255,255,0.6);
@@ -295,12 +295,12 @@ The CSS above will add a white semi-transparent background to the `section` and 
 
 It still looks *odd* on large screens though.
 
-> ```css
+```css
 section
 {
 	...
 	max-width: 500px;
- 		margin: auto;
+		margin: auto;
 }
 ```
 
@@ -320,14 +320,14 @@ So, we will mock up a **list** of results (people in our *community skill-swap* 
 
 > In `index.html` create an **u**nordered **l**ist `ul` under the `button`
 
-> ```html
+```html
 <ul>
 </ul>
 ```
 
 > Inside the `ul` create a **l**ist **i**tem `li`
 
-> ```html
+```html
 <ul>
 	<li></li>
 </ul>
@@ -337,7 +337,7 @@ Think about what you want your search results to display. For example we could h
 
 > Inside the `li` put some *placeholder* content.
 
->	```html
+```html
 <ul>
 	<li>
 		<img src="http://api.randomuser.me/portraits/women/27.jpg">
@@ -360,7 +360,7 @@ For example, how can we remove the *bullet points* from the list?
 
 > In `style.css` select the list `ul` and define its style.
 
-> ```css
+```css
 ul
 {
 	list-style: none;
@@ -369,7 +369,7 @@ ul
 
 In CSS you can select elements **nested** inside other elements like this
 
->	```css
+```css
 li img
 {
 	width: 50px;
@@ -449,8 +449,8 @@ There are lots of programming languages: JavaScript, Python, C, C++, Objective-C
 They share the same core principles, and the same **building blocks**:
 
 1. **Variables** to store data
-* **Functions** to define reusable sets of instructions
-* **Logic** to make choices `if this then that`
+2. **Functions** to define reusable sets of instructions
+3. **Logic** to make choices `if this then that`
 
 What variables, functions and logic do you use in your everyday life (even if you don't call them so)?
 
