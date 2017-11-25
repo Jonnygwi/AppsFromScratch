@@ -28,7 +28,7 @@ But first, a little recap!
 	
 	<!--False. They are two different programming languages. Java is the language behind Android (and many other things), JS is the "native" language of the Web.
 	Java and JavaScript are like "car" and "carpet".. similar words, different meanings.-->
-* What is wrong with this JS code?
+2. What is wrong with this JS code?
 
 	```js
 	var userName = 'Jo";
@@ -41,7 +41,7 @@ But first, a little recap!
 	or 
 	
 	var userName = 'Jo';-->
-* What is wrong with this JS code?
+3. What is wrong with this JS code?
 
 	```js
 	var person = { };
@@ -51,7 +51,7 @@ But first, a little recap!
 	<!--Properties inside objects must be accessed via . (dot notation) so
 	
 	person.name = 'Jo';--> 		
-* What will this JS code produce?
+4. What will this JS code produce?
 
 	```js
 	person.drink = function ( beverage ) { 
@@ -62,7 +62,7 @@ But first, a little recap!
 	```
 	
 	<!--An annoying pop-up saying "I am drinking coconut water!"-->
-* What will this JS code produce?
+5. What will this JS code produce?
 
 	```js
 	person.whisper = function ( message ) 	{ 
@@ -73,7 +73,7 @@ But first, a little recap!
 	```
 	
 	<!--A message in the browser's JS Console (one of the most useful developer tools) saying: "Sshhh... Keep calm and code on"-->
-* What will this JS code produce?
+6. What will this JS code produce?
 
 	```js
 	function areYouAnAdult ( age ) {
@@ -90,7 +90,7 @@ But first, a little recap!
 	```
 	
 	<!--It will return "yes"-->
-* Where is better to put JavaScript `<script src="example.js"></script>` in your HTML?
+7. Where is better to put JavaScript `<script src="example.js"></script>` in your HTML?
 
 	- [ ] inside the `head`
 	
