@@ -126,7 +126,6 @@ http://tonyfreed.com/blog/top_javascript_interview_question_2015
 ### Spot the usual suspects
 
 > Go to [thimble.mozilla.org](https://thimble.mozilla.org/) and log in. Then open your project from last week. 
-
 > In `app.js` can you spot *variables*, *functions* and *objects*?
 
 ### **Comment** your code to make sense of it
@@ -368,7 +367,7 @@ Ids are the most powerful CSS selectors: the styles you apply to them override a
 Your app prototype will have two sections:
 
 1. **Home** section with dropdown menu, `Find` button and search results
-* **Details** section for each item in the search results 
+2. **Details** section for each item in the search results 
 
 ### The `#home` section
 
@@ -389,11 +388,10 @@ You've already created two separate `section`s inside your HTML. One of those se
 		<!--etc etc...-->
 	</section>
 </body>
-```
 
 > Give the first `section` (which contains the `dropdown` menu) an `id="home"`
 
->```html
+```html
 <section id="home">
 	<!-- etc etc...-->
 </section>
