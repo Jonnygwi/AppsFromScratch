@@ -388,10 +388,10 @@ You've already created two separate `section`s inside your HTML. One of those se
 		<!--etc etc...-->
 	</section>
 </body>
+```
+Give the first `section` (which contains the `dropdown` menu) an `id="home"`
 
-> Give the first `section` (which contains the `dropdown` menu) an `id="home"`
-
-```html
+```
 <section id="home">
 	<!-- etc etc...-->
 </section>
@@ -403,7 +403,7 @@ Underneath the `<section id="home"> ... </section>` you should already have an e
 
 > Give this `section` an `id="details"` and make some space inbetween the opening and closing tag.
 
->```html
+```
 <section id="details">
 </section>
 ``` 
@@ -416,7 +416,7 @@ We're going to use that `img`, `h2` and `p` in `#details`.
 
 > Copy the `img`, `h2` and `p` from the `li` in `#home` and paste them inside `<div id="person"> </div>` like so
 
-> ```html
+```html
 <section id="details">
 	<a id="back">Back</a>
 	<div id="person">
@@ -435,7 +435,7 @@ Your users may want to move back and forth between `#home` and `#details`. For t
  
 > Add in `<a id="back">Back</a>` above `<div id="person">`
 
-> ```html
+```html
 <section id="details">
 	<a id="back">Back</a>
 	<div id="person"> 
@@ -444,7 +444,7 @@ Your users may want to move back and forth between `#home` and `#details`. For t
 	
 Your users will also need a way to contact the person. Add in a contact button inside your `#person`: `<a class="contactButton">Contact Jonny</a>`
 
-> Your `<section id="details"></section>`  will look something like this:
+Your `<section id="details"></section>`  will look something like this:
 
 ```html
 <section id="details">
@@ -487,7 +487,7 @@ To let JS know which data to look for, we can add a little bit of information to
 
 > Scroll back up to your `select` dropdown menu in `#home`. In each opening `option` tag add in `value=" "`
 
-> ```html
+```html
 <select>
      <option value=" ">Bake a cake</option>
      <option value=" ">Move my furniture</option>
@@ -501,7 +501,7 @@ For example, if the user selects `Bake a cake`, the property which matches that 
 
 > Copy property names from the database and paste them in the relevant value slot in your HTML. Make sure to double-check for the exact property names, otherwise your JS code will not work!
 
-> ```html
+```html
 <select>
      <option value="bakingSkills">Bake a cake</option>
      <option value="bodyStrength">Move my furniture</option>
@@ -520,23 +520,6 @@ For example, if the user selects `Bake a cake`, the property which matches that 
 Aka `Don't reinvent the wheel`.
 
 Code libraries are **collections of pre-written functions** which you use to avoid re-writing the same code over and over again.     
-
-<!--   
-There are millions of libraries out there. 
-
-Here are some of the most popular in the industry:
-
-- [jQuery](https://jquery.com)   
-- [Bootstrap](http://getbootstrap.com/) Ready-made interface components
-- [Greensock](https://greensock.com/) Animationzzz
-- [Google Material Design](http://www.getmdl.io/index.html) Design template
-   
-Some other advanced libraries:   
-   
-- [p5.js](http://p5js.org/gallery/) Advanced drawing library 
-- [three.js](http://threejs.org) 3D rendering library
-- [aframe](https://aframe.io/examples/showcase/sky/) 360 VR library
--->
 
 One of the first libraries we recommend you get familiar with is jsQuirrel... :squirrel:
 
@@ -586,7 +569,7 @@ jQuery('h1').hide();
 So to recap:
 
 1. Select
-* Manipulate 
+2. Manipulate 
 
 It's common practice to store a jQuery selection in a *variable*, and then use that variable throughout your code. That way you don't have to select the same HTML elements over and over again.
 
@@ -639,7 +622,7 @@ We created a handy document with snippets of code for you to **copy-paste**: [bi
 
 > Go to [bit.ly/copyPasteCodeYourApp](https://bit.ly/copyPasteCodeYourApp) and copy the following code (you can find it under Day 4):
 
-> ```html
+```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 ```
 
@@ -647,7 +630,7 @@ We created a handy document with snippets of code for you to **copy-paste**: [bi
 
 > Just before the **end** of the `body` paste the jQuery `script` like this
 
-> ```html
+```html
 		...
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<!-- Make sure jQuery is loaded before app.js-->
@@ -668,7 +651,7 @@ When people open the app, we don't need them to see details about a person. Late
 
 > At the bottom of `app.js` write
 
-> ```js
+```js
 $('#details').hide();
 ```
 
@@ -677,13 +660,13 @@ $('#details').hide();
 The line above does two things:
 
 1. `$('#details')`: **select** the element with `id="details"`
-* Perform the `hide()` function on that selection
+2. Perform the `hide()` function on that selection
 
 ### 3. When someone clicks on the `Find` button, what happens?
 
 > Go to [bit.ly/copyPasteCodeYourApp](https://bit.ly/copyPasteCodeYourApp) and copy the following code (you can find it under Day 4):
 
-> ```javascript
+```javascript
 $('button').click( function() {
   // get user input
   var selectedOption = $('select').val(); // this is jQuery val()
@@ -719,9 +702,9 @@ var selectedOption = $('select').val(); // this is jQuery val(), not Firebase va
 ```
 
 1. Create a `var` named `selectedOption`
-* `$('select')`: select the `select` (HTML for dropdown) with jQuery `$`
-* Get the currently selected value (for example the `likesPets`) using the jQuery function `.val()`
-* Save that value in `selectedOption`
+2. `$('select')`: select the `select` (HTML for dropdown) with jQuery `$`
+3. Get the currently selected value (for example the `likesPets`) using the jQuery function `.val()`
+4. Save that value in `selectedOption`
 
 Pick people according to the selected option
 
@@ -731,12 +714,12 @@ var resultsList = filterAndSortList(peopleList, selectedOption);
 ```
 
 1. Create a `var` named `resultsList` 
-* Use the function `filterAndSortList` to filter and sort `peopleList` (the list with all the people) so that it matches the user 's selection (`selectedOption`)
-* Store the filtered people in `resultsList`
+2. Use the function `filterAndSortList` to filter and sort `peopleList` (the list with all the people) so that it matches the user 's selection (`selectedOption`)
+3. Store the filtered people in `resultsList`
 
 > Create a new file in your Thimble project, call it `filter.js` (or whatever you like) and then in `index.html` use a `script` to load `filter.js` just before the one which loads `app.js`.
 
-> ```html
+```html
 	...
 	<script src="filter.js"></script>
 	<script src="app.js"></script> 
@@ -755,7 +738,7 @@ In the line above we are using the function `showList` to spit out the results i
 
 > Create a new file in your Thimble project, call it `show.js` (or whatever you like) and then in `index.html` use a `script` to load `show.js` just before the one which loads `app.js`.
 
-> ```html
+```html
 	...
 	<script src="filter.js"></script>
 	<script src="show.js"></script>
@@ -769,7 +752,7 @@ In the line above we are using the function `showList` to spit out the results i
 
 > See if you can integrate the code below (you can copy it from the copy-paste GDoc) in your `app.js`.
 
-> ```js
+```js
 $('#back').click( function(){   
   $('#home').show();
   $('#details').hide();
