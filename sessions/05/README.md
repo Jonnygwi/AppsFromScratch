@@ -378,7 +378,7 @@ Now that we have our designed data let's edit our pusher so that the fields matc
 
 > Tweak the `input` elements so that they reflect your data structures. Make sure you change the `name` *attributes*, eg:
 
-> ```html
+```html
 <input name="CHANGE_THIS" ...>
 ```
 
@@ -422,7 +422,7 @@ Remember to also change `personId` , `personHTML` and `makePersonHTML`!
 
 > Scroll down to  `makeListItemHTML`. This is the function which populates the results list:
 
-> ```js
+```js
 function makeListItemHTML (person, index) 
 {
 	...
@@ -440,7 +440,7 @@ As you can see, in `li` there are some **invariable bits** like `<li id="`, and 
 
 > If you want to add an `img` for instance, then you can tweak the lines where `li` is stringed together: 
 
-> ```js
+```js
 var li  = '<li id="' + index + '">' 
 + '<img src="' + person.image + '">' 
 + '<h2>' + person.name + '</h2>' 
