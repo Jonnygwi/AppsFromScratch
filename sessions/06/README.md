@@ -147,18 +147,20 @@ For example, if you were looking for a *course*, you'd probably want to know the
 
 You'd need to customise the Firebase Pusher form so that you have a **field** for each piece of information you want to store inside that entry.
 
-> 1. In `app.js` change `databaseURL` so that it points to your own Firebase.
-> * In `index.html` edit the `form` by changing all the `name` attributes for your fields to reflect the data you want to store in Firebase. For instance, change 
-> ```html
+1. In `app.js` change `databaseURL` so that it points to your own Firebase.
+2. In `index.html` edit the `form` by changing all the `name` attributes for your fields to reflect the data you want to store in Firebase. For instance, change 
+
+```html
 <input name="codingSkills" ...
 ``` 
-> to 
-> ```html
+to 
+
+```html
 <input name="YOUR_VARIABLE_NAME" ...
 ```
-> Then once you've adapted the form, you can use it to push the details about one course at a time to the database. You fill out the form and press the `Push it!` button!
+Then once you've adapted the form, you can use it to push the details about one course at a time to the database. You fill out the form and press the `Push it!` button!
 
-> **INSIDER TIP** Don't push hundreds of data objects. Just push two or three to start with, then *test* your app and see if you need to re-structure your data, or add anything that you may have missed.
+**INSIDER TIP** Don't push hundreds of data objects. Just push two or three to start with, then *test* your app and see if you need to re-structure your data, or add anything that you may have missed.
 
 
 # Displaying data
@@ -171,7 +173,7 @@ Once you've created your own database and *pushed* data to it, you'll need to cu
 
 > Find the function `makeListItemHTML`, which populates the results list:
 
-> ```js
+```js
 function makeListItemHTML (person, index) 
 {
 	...
@@ -189,7 +191,7 @@ As you can see, in `li` there are some **invariable bits** like `<li id="`, and 
 
 > If you want to add an `img` for instance, then you can tweak the lines where `li` is stringed together: 
 
-> ```js
+```js
 var li  = '<li id="' + index + '">' 
 + '<img src="' + person.image + '">' 
 + '<h2>' + person.name + '</h2>' 
