@@ -342,7 +342,7 @@ And remember...
 
 We need your **feedback**. It will hugely help us improve this course!
 
-[Feedback form](https://docs.google.com/forms/d/1S9bKktdJEPG5zS-lDuZ7BKqjw1ex-tzKUwyV8pHBMcM/viewform?edit_requested=true)
+[Feedback form](https://goo.gl/nKfzTd)
 
 
 ### License
